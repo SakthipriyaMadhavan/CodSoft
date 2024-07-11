@@ -1,0 +1,24 @@
+A=int(input())
+B=int(input())
+print("1.ADD\n2.MULTI\n3.SUB\n4.MODULO\n5.DIVI\n6.EXPONENT\n")
+C=int(input())
+if(C==1):
+    add=A+B
+    print("ADD",add)
+elif(C==2):
+    multi=A*B
+    print("MULTI",multi)
+elif(C==3):
+    sub=A-B
+    print("SUB",sub)    
+elif(C==4):
+    mod=A%B
+    print("MODULO",mod)
+elif(C==5):
+    div=A/B
+    print("DIVI",div)
+elif(C==6):
+    expo=A**B
+    print("EXPONENT",expo)
+else:
+    print("invald")                
